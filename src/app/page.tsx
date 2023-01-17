@@ -7,7 +7,16 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.center}>
-        <p className={inter.className}>Miss u qia 💕💕💕</p>
+        <p className={inter.className}>
+          Miss u qia
+          <span
+            style={{
+              whiteSpace: "nowrap",
+            }}
+          >
+            💕💕💕
+          </span>
+        </p>
       </div>
     </main>
   );

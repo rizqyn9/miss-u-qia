@@ -9,6 +9,12 @@
   font-weight: 900;
 }
 
+@media (max-width: 500px) {
+  .main {
+    font-size: 2rem !important;
+  }
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
