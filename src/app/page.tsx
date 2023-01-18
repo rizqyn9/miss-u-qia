@@ -12,20 +12,29 @@ export default function Home() {
           display: "flex",
           flexDirection: "column",
           gap: "1rem",
+          ...inter.style,
         }}
       >
-        <p className={inter.className}>
+        <p className={styles.title}>
           Miss u qia
           <span
             style={{
               whiteSpace: "nowrap",
             }}
           >
-            💕💕💕
+            &nbsp;💕💕💕
           </span>
         </p>
-        <p className="desc" style={inter.style}>
-          No matter what happens, I will stand for you
+        <p className={styles.desc} style={inter.style}>
+          No matter what happens,
+          <span
+            style={{
+              whiteSpace: "nowrap",
+            }}
+          >
+            {" "}
+            I will stand for you
+          </span>
         </p>
       </div>
     </main>
