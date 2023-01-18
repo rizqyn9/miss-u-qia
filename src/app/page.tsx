@@ -6,7 +6,14 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.center}>
+      <div
+        className={styles.center}
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "1rem",
+        }}
+      >
         <p className={inter.className}>
           Miss u qia
           <span
