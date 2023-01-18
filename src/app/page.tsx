@@ -17,7 +17,7 @@ export default function Home() {
             💕💕💕
           </span>
         </p>
-        <p>Will u marry me? 💍</p>
+        <p className={inter.className}>Will u marry me? 💍</p>
       </div>
     </main>
   );
